@@ -69,7 +69,7 @@ chosen_seq = ((hour - 2) % 4)
 # chosen_seq = random.randint(0, len(seqs)-1)
 reps = 4
 if half_hour :
-    reps - 2
+    reps = reps - 2
 # chosen_seq = 0
 seq = seqs[chosen_seq]
 
